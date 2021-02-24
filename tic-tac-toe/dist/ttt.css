@@ -1,0 +1,16 @@
+ul {
+    display: flex;
+    width: 310px;
+    height: 310px;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    background-color: gray;
+}
+
+li {
+    border: solid thin black;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
