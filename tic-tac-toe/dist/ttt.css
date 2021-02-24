@@ -13,4 +13,9 @@ li {
     width: 100px;
     height: 100px;
     background-color: red;
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: turquoise;
 }
