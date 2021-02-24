@@ -12,10 +12,28 @@ li {
     border: solid thin black;
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: gray;
     list-style-type: none;
 }
 
 li:hover {
-    background-color: turquoise;
+    background-color: yellow;
+}
+
+.makeMove {
+    background-color: white;
+    color: black;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.win {
+    background-color: green;
+    color: gold;
+}
+
+.lose {
+    color: red;
 }
